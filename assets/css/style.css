@@ -700,14 +700,23 @@ section {
 
 #advanced-features .how-we-work {
   display: flex;
+  
+}
+
+#advanced-features .af-img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+
 }
 
 #advanced-features .advanced-feature-img {
-  width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   #advanced-features .how-we-work {
     flex-direction: column;
   }
